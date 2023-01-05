@@ -1,0 +1,19 @@
+İlk önce PhpMyAdminde ( arabakiralama ) adında bir veritabanı oluşturup, sonra klasördeki arabakiralama.sql veritabanını içe 
+aktar yapınız.
+
+
+sonra proje package'ın içindeki baglanti.java sınıfındaki phpmyadmin kullanıcı adı ve şifreniz değişikse, onları değiştirmeniz gerek. 
+
+kullanıcılar;
+
+eposta: ali@mail.com
+parola: 12345
+
+Admin;
+eposta: admin
+parola: admin
+
+admin girişi personel girişinin olduğu yerden yapılıyor.
+
+
+

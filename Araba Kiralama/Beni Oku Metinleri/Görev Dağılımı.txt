@@ -1,0 +1,3 @@
+Ömer Faruk Ak ve Erdem Aytekin programın GUİ kısmı ile ilgilendi.
+Rıfat Efe Arslan MySQL ve PHPMyAdmin ile uğraştı.
+

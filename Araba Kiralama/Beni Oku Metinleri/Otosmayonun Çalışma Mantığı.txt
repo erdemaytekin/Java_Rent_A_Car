@@ -1,0 +1,54 @@
+<default package>'ın altındaki Giris.java sınıfının kod kısmında run file yapılıp, proje çalıştırılır.
+veya proje klasörünün içindeki dist klasöründeki ArabaKiralama.jar ile de çalıştırabilirsiniz.
+
+Personel giriş yaptıktan sonra kiralama.java sınıfı çalışır.
+
+
+Müşteri İşlemleri
+Yeni müşteri ekleme:
+Yeni Botunona basılır ve
+Müşteri Adı - Soyadı, Adres, Telefon, Eposta alanları doldurlup kaydedilir. 
+Düzenle:
+Düzenle butonuna basılıp, güncellenecek müşteri, müşteri listesinden seçilir. seçilen müşterinin bilgileri ilgili alanlardan değiştirilip
+kaydedilir ve tamama basılır.
+Silme:
+Silinecek müşteri, müşteri listesinden seçilir ve sil butonuna tıklanıp ilgili müşteri silinir.
+
+
+Araba İşlemleri
+
+Yeni araba ekleme:
+Yeni butonuna basılır ve 
+Plaka, Marka, Model, Durumu ve Günlük Ücreti ilgili alanlara doldurulup kaydedilir.
+Düzenleme:
+Düzenle butonuna basılıp, güncellenecek araba, arabalar listesinden seçilir. seçilen arabanın bilgileri ilgili alanlardan değiştirilip
+kaydedilir ve tamama basılır.
+Silme:
+Silinecek araba , araba listesinden seçilir ve sil butonuna tıklanıp ilgili araba silinir.
+
+Araba Kiralama İşlemi
+Yeni Kiralama:
+Yeni butonuna basılır ve araç kiralayacak müşteri, Müşteri açılır listesinden seçilir, kiralayacağı araç Kiralanabilir Arabalar listesinden
+aracın üstüne tıklanıp, kiralayacağı ve teslim edeceği tarihler ilgili alanlardan seçilip kaydet butonuna basılır.
+Düzenleme:
+Düzenle butonuna basılıp, güncellenecek kiralama, kiralanan arabalar listesinden seçilir. seçilen kiralamanın bilgileri ilgili alanlardan değiştirilip
+kaydedilir ve tamama basılır.
+Silme:
+Silinecek kiralama, Kiralanan Arabalar listesinden seçilir ve sil butonuna tıklanıp ilgili kiralama silinir.
+
+Araba Teslim İşlemi:
+Teslim Alma
+Teslim edilecek araba Kiralanan Arabalar listesinden üstüne tıklanarak seçilir.
+Teslim tarihi ilgili alandan belirtilip, eğer varsa hasar ücreti de eklenip(hasar ücreti yoksa 0 yazılır) hesapla ardından teslim et butonuna tıklanır,
+ve araç teslim alınır.
+
+Admin Girişi:
+Admin girişi personel girişin olduğu yerden yapılıyor. admin kendi epostası ve şifresiyle giriş yapıyor.
+Admin sayfasında, admin personelin adına tıklayıp, aktif veya inaktif yapabiliyor.
+Kullanıcı adı ve parolasını Giris.java'nın kod kısmından değiştirebilirsiniz. Çabuk görmeniz için başına yorum satırı ekledim.
+
+Parolamı Unuttum:
+parolasını unutan personel epostasını ilgili arama yerine yazıp ara butonuna tıklıyor.
+eğer böyle bir eposta kayıtlıysa, kullanıcın kaydolurkenki verilen güvenlik sorusu gösteriliyor.
+yeni parolasını yazıp ve güvenlik sorusunu doğru yanıtlarsa şifresi değişmiş oluyor.
+
